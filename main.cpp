@@ -21,4 +21,5 @@ int main() {
   manager.register_event(std::move(handler));
   PlayerJoinEvent event("tachyon");
   manager.fire(event);
+  // salut
 }
